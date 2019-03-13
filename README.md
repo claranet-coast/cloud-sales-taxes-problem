@@ -63,6 +63,7 @@ Total: 98.38
 - Realize a serverless solution using the building blocks of any public cloud provider (ex. AWS Lambda, Azure Function, Amazon Api Gw o Google ApiGee)
 - Use DevOps build process to automate infrastructure creation using Infrastructure as a Code paradigm
 - Use Test Driven Development methodology to develop the solution
+- Provide a solution that uses AI methodologies 
 
 **IMPORTANT:**  Implement the requirements focusing on **writing the best code** you can produce.
 
