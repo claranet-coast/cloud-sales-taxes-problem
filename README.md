@@ -1,4 +1,5 @@
 # Cloud Sales taxes problem
+
 This problem requires some kind of input.
 You are free to implement any REST API mechanism for feeding input into your solution.
 You should provide sufficient evidence that your solution is complete by, as a minimum, indicating that it works
@@ -10,9 +11,9 @@ correctly against a supplied test data.
 
 When I purchase items I receive a receipt which lists the name of all the items and their price (including tax), finishing with the total cost of the items, and the total amounts of sales taxes paid. The rounding rules for sales tax are that for a tax rate of n%, a shelf price of p contains (np/100 rounded up to the nearest 0.05) amount of sales tax.
 
-Write an application that prints out the receipt details for these shopping baskets...
+Write an application that prints out the receipt details for these shopping baskets:
 
-```
+```text
 INPUT:
 
 Input 1:
@@ -55,16 +56,16 @@ Total: 98.38
 ```
 
 ## General requirements
+
 - You may use whatever programming language/platform you prefer. Use something that you know well.
 - You must deliver the source code of your application, with a README that explains how to compile and run it.
 - Add the source code to a GIT Hosting Service of your choice (GitLab, GitHub,..) and send us the link.
 
 ## Bonus points
-- Realize a serverless solution using the building blocks of any public cloud provider (ex. AWS Lambda, Azure Function, Amazon Api Gw o Google ApiGee)
-- Use DevOps build process to automate infrastructure creation using Infrastructure as a Code paradigm
-- Use Test Driven Development methodology to develop the solution
-- Provide a solution that uses AI methodologies 
+
+- Realize a cloud-native solution using the building blocks of any public cloud provider (e.g. AWS Lambda, Azure Function, Amazon Api Gw o Google ApiGee) or container orchestration tools and technologies (e.g. Docker, Kubernetes).
+- Use DevOps build process to automate infrastructure creation using Infrastructure as a Code paradigm.
+- Use Test Driven Development methodology to develop the solution.
+- Provide a solution that uses AI methodologies.
 
 **IMPORTANT:**  Implement the requirements focusing on **writing the best code** you can produce.
-
-
